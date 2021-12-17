@@ -139,13 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h" />
+    <ClCompile Include="Sign_inAndSign_up_Model.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="NationalTrafficAsk.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IO_Model.h" />
+    <ClInclude Include="IO_Model_Base.h" />
+    <ClInclude Include="Sign_inAndSign_up_Model_Base.h" />
+    <ClInclude Include="Sign_inAnd_Sign_up_Model.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

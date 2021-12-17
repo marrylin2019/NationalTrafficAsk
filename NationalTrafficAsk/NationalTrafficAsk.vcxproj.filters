@@ -15,18 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="Sign_inAndSign_up_Model.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="NationalTrafficAsk.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sign_inAndSign_up_Model_Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sign_inAnd_Sign_up_Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IO_Model_Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IO_Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
